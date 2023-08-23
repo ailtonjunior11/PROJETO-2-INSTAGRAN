@@ -83,3 +83,46 @@ button {
     font-size: 16px;
 
 }
+
+@media screen and (max-width: 800px) {
+
+    body {
+
+        display: block;
+    }
+
+    .caixa {
+
+        border: 1px solid #d3d3d3;
+        display: flex;
+        flex-direction: column;
+        width: 205px;
+        padding: 40px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .imagens {
+
+        position: relative;
+        text-align: center;
+    
+    }
+
+    .img-celular {
+
+        width: 300px;
+    }
+
+    .img-tela {
+
+        height: 350px;
+        position: absolute;
+        left: 138px;
+        top: 15px;
+        transition: 2s ease-in-out;
+        
+    }
+
+}
